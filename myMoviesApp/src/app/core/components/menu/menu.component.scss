@@ -1,0 +1,17 @@
+@import "./../../../../variables";
+:host{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 15px;
+    background: $color-primary;
+    nav{
+        a{
+            margin-right: 5px;
+            &.active{
+                color: $color-primary; 
+            }
+        }
+    }
+}
+
